@@ -35,6 +35,6 @@ class WhatsApp extends AbstractDriver
      */
     protected function buildLink()
     {
-        return 'whatsapp://send?text={url}';
+        return 'https://api.whatsapp.com/send?text={url}';
     }
 }
