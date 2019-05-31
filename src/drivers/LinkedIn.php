@@ -43,6 +43,7 @@ class LinkedIn extends AbstractDriver
 
     /**
      * {@inheritdoc}
+     * requires removall of htpasswd 
      */
     protected function buildLink()
     {
